@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;transpose&apos; in &apos;com.matrixTranspose.matrixTranspose.main(...)&apos; to &apos;transpose&apos;&#x0D;&#x0A;- Original project: &apos;matrixTranspose&apos;&#x0D;&#x0A;- Original element: &apos;com.matrixTranspose.matrixTranspose.main(String[]).matrix2&apos;&#x0D;&#x0A;- Renamed element: &apos;transpose&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;transpose&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.matrixTranspose{matrixTranspose.java[matrixTranspose~main~\[QString;@matrix2!395!435!403!409!\[\[I!0!false" name="transpose" references="true" stamp="1707978073409" version="1.0"/>
+</session>
