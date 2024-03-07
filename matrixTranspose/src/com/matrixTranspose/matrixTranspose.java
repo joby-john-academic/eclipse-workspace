@@ -11,7 +11,7 @@ public class matrixTranspose {
 		System.out.println("Enter number of column");
 		int columns = scanner.nextInt();
 		int [][]matrix1 = new int[rows][columns];
-		int [][]transpose = new int[rows][columns];;
+		int [][]transpose = new int[rows][columns];
 		//get elements
 		
 		for(int i=0; i<rows;i++)

@@ -1,6 +1,7 @@
 package com.matrixAddition;
 import java.util.Scanner;
 
+
 public class MatrixAdd {
 
 	public static void main(String[] args) {
@@ -10,8 +11,8 @@ public class MatrixAdd {
 		System.out.println("Enter number of column");
 		int columns = scanner.nextInt();
 		int [][]matrix1 = new int[rows][columns];
-		int [][]matrix2 = new int[rows][columns];;
-		int [][]result = new int[rows][columns];;
+		int [][]matrix2 = new int[rows][columns];
+		int [][]result = new int[rows][columns];
 		
 		//get elements
 		
@@ -34,6 +35,15 @@ public class MatrixAdd {
 			}
 		}
 		
+		printer obj=new printer();
+		obj.print(result, rows, columns);
+		scanner.close();
+		
+	}
+}
+	class printer{
+		void print(int result[][], int rows, int columns) {
+		
 		for(int i=0; i<rows;i++)
 		{
 			for (int j =0; j<columns;j++)
@@ -43,8 +53,8 @@ public class MatrixAdd {
 			System.out.println("\n");
 			
 		}
-		scanner.close();
+		
 
 	}
+	}
 
-}
